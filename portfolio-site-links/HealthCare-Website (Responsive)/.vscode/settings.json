@@ -1,0 +1,32 @@
+{
+  "cSpell.language": "en,lorem",
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!elixir",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!json",
+    "!jsonc",
+    "!jupyter",
+    "!latex",
+    "!less",
+    "!markdown",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scminput",
+    "!scss",
+    "!swift",
+    "!vue",
+    "!yaml",
+    "!yml"
+  ]
+}

@@ -1,0 +1,106 @@
+@font-face {
+  font-family: poppin-regular;
+  src: url(./fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: poppin-medium;
+  src: url(./fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: poppin-bold;
+  src: url(./fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: poppin-black;
+  src: url(./fonts/Poppins-Black.ttf);
+}
+
+/* body::before {
+  display: block;
+  content: '';
+  height: 60px;
+} */
+
+.card {
+  box-shadow: 0px 0px 11px 12px rgba(0,0,0,0.1);
+  border-radius: 1rem;  
+}
+
+:root {
+  --primary-color: #4581F6;
+  --navy: #002265;
+  --text-color: #14279B; 
+}
+
+.navy {
+  color: var(--navy);
+}
+
+.text-color {
+  color: var(--text-color);
+}
+
+.reg-font, body {
+  font-family: poppin-regular;
+}
+
+.med-font {
+  font-family: poppin-medium;
+}
+
+.light-grey-text {
+  color: #3F3D56;
+  ;
+}
+
+.bold-font {
+  font-family: poppin-bold;
+}
+
+.black-font {
+  font-family: poppin-black;
+}
+
+.navbar-brand {
+  letter-spacing: 3px;
+}
+
+.section-heading {
+  letter-spacing: 2px;
+}
+
+.spacing {
+  letter-spacing: 2px;
+}
+
+.my-portfolio-spacing {
+  letter-spacing: 5px;
+}
+
+footer {
+  padding-top: 200px;
+}
+
+.custom-shape-divider-bottom-1702532329 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1702532329 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 200px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1702532329 .shape-fill {
+  fill: #4581F6;
+}
